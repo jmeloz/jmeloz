@@ -150,5 +150,41 @@ header nav a:hover {
   100% {
     transform: translateY(-100vh) scale(1.5) rotate(45deg);
     opacity: 0;
+  
+}
+}
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
   }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
 }
