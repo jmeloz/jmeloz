@@ -188,3 +188,27 @@ header nav a:hover {
   }
 
 }
+@media (max-width: 768px) {
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  nav ul {
+    display: none; /* esconde os links grandes */
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .botao-marina {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+}
